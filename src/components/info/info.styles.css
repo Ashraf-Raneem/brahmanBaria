@@ -1,0 +1,14 @@
+.infoDiv {
+    height: 1200px;
+    width: 100vw;
+    background: url('../../picture/infoBg-bb.jpg') top left no-repeat;
+    background-size: cover;
+}
+.infoContainer {
+    padding-top: 500px;
+    padding-left: 50px;
+    text-align: left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

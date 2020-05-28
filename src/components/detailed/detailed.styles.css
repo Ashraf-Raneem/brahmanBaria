@@ -1,0 +1,9 @@
+.detailedContainer {
+    padding-left: 200px;
+    background: linear-gradient(white, #5E0057, white );
+    height: 100%;
+    padding-bottom: 20px;
+}
+.leftCol {
+    padding-top: 100px ;
+}

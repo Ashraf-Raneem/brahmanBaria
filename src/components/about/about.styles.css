@@ -1,0 +1,66 @@
+.gridLayout {
+    position: relative;
+    bottom: 400px;
+    margin-left: 180px;
+    z-index: 10;
+    text-align: center;
+}
+.underCarousel {
+    height: 900px;
+    width: 100vw;
+}
+.aboutBg {
+    position: relative;
+    bottom: 50px;
+    height: 480px;
+    width: 100vw;
+    clear: both;
+    z-index: 5;
+}
+.aboutIcon {
+    background: white;
+    height: 100px;
+    width: 100px;
+    padding-top: 25px ;
+    border-radius: 100px;
+    display: block;
+    position: relative;
+    left: 70px;
+}
+.sectionText {
+    background: white;
+    padding-top: 50px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sectionText h3 {
+    color: #5E0057;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.sectionText p {
+    color: black;
+}
+.sectionText button {
+    margin-top: 10px;
+}
+.midSection {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+.midSection h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #5E0057;
+    padding: 40px;
+}
+.midSection .midText {
+    padding-top: 20px;
+    font-weight: bold;
+}
+.midSection img {
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+}

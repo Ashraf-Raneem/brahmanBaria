@@ -1,0 +1,110 @@
+.coverDiv {
+    height: 500px;
+}
+.carousel{
+    position: relative;
+    bottom: 100px;
+}
+.topnav {
+    background-color: transparent;
+    z-index: 10;
+    position: relative;
+}
+.navItems {
+  display: block;
+  float: right;
+}
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnavBrand {
+    color: purple;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    border-bottom: 1px solid purple;
+    color: white;
+    text-decoration: none;
+  }
+.coverText {
+  position: absolute;
+  bottom: 200px
+}
+.coverText h2 {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 25px;
+  margin-top: 150px;
+  padding-left: 150px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.coverText h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.learnBtn {
+  background-color: #5E0057 ;
+  font-weight: bold;
+  border: 1px solid #5E0057;
+  padding: 5px;
+  margin-right: 15px;
+  border-radius: 5px;
+  color: white;
+}
+.learnBtn:hover {
+  background: transparent;
+  border: 1px solid #5E0057;
+  padding: 5px;
+  border-radius: 5px;
+  color: #5E0057;
+  font-weight: bold;
+}
+.contactBtn {
+  background: transparent;
+  border: 1px solid #5E0057;
+  padding: 5px;
+  border-radius: 5px;
+  color: #5E0057;
+  font-weight: bold;
+}
+.contactBtn:hover {
+  background-color: #5E0057 ;
+  font-weight: bold;
+  border: 1px solid #5E0057;
+  padding: 5px;
+  margin-right: 15px;
+  border-radius: 5px;
+  color: white;
+}
+.react-rotating-text-cursor {
+  color: #5E0057;
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

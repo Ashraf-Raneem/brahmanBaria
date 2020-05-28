@@ -1,0 +1,25 @@
+.cardDiv {
+    margin-top: 80px;
+    background: white;
+    opacity: 80%;
+    padding: 15px;
+    color: #5E0057;
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: 5px;
+    height: 490px;
+    width: 350px;
+}
+.cardText h3, p{
+    padding: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.cardText h3 {
+    padding-top: 50px;
+}
+.cardLogo {
+    height: 100px;
+    width: 150px;
+    background: white;
+}

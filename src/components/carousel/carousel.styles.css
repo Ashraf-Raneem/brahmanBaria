@@ -1,0 +1,14 @@
+.carouselImage{
+    height: 1200;
+    width: 100vw;
+    overflow: visible;
+    opacity: 100%;
+    position: relative
+}
+.carouselMain {
+    overflow: visible;
+}
+.asd {
+    position: absolute;
+    bottom: 105px;
+}

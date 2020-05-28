@@ -1,0 +1,43 @@
+.footerDiv {
+    background: #121212;
+    padding: 70px 25px 25px 0px;
+}
+.footerColumns {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+.footerColumns h2{
+    font-size: 25px;
+    border-left: 1px solid purple;
+    margin-bottom: 50px;
+}
+.footerColumns li {
+    padding-bottom: 20px ;
+    font-size: 16px;
+}
+.footerColumns p {
+    text-align: left;
+}
+.footerColumns li:hover {
+    color: purple;
+    cursor: pointer;
+}
+.bottomFooter {
+    color: white;
+    margin-top: 100px;
+    padding: 0px 20px 20px 0px ;
+}
+.bottomFooter .leftAlign {
+    text-align: left;
+    display: inline-block;
+    padding-right: 300px;
+}
+.bottomFooter .rightAlign {
+    text-align: right;
+    display: inline;
+}
+.rightAlign:hover {
+    color: purple;
+    cursor: pointer;
+}
