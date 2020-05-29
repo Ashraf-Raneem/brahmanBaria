@@ -15,3 +15,15 @@ Here are some of the screenshots of the applications.
 - - - - 
 # Cover Section
 ![picture alt](./public/CoverPage_SC.png)
+
+# Cover Section _2
+![picture alt](./public/BelowCover_SC.png)
+
+# About Section
+![picture alt](./public/info_SC.png)
+
+# Informatation Section 
+![picture alt](./public/cards_SC.png)
+
+# Footer Section 
+![picture alt](./public/footer_SC.png)
