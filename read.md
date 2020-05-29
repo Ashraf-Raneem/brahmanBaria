@@ -20,7 +20,7 @@ Here are some of the screenshots of the applications.
 ![picture alt](./public/BelowCover_SC.png)
 
 # About Section
-![picture alt](./public/info_SC.png)
+![picture alt](./public/Info_SC.png)
 
 # Informatation Section 
 ![picture alt](./public/cards_SC.png)
