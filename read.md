@@ -14,4 +14,4 @@ Here are some of the screenshots of the applications.
 
 - - - - 
 # Cover Section
-![picture alt](./public/CoverPage_SC.png/500x500 )
+![picture alt](./public/CoverPage_SC.png)
