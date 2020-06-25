@@ -1,21 +1,20 @@
 import React from 'react';
 import './App.css';
 import NavbarMain from './components/navbars/navbar.component';
-import CarouselBg from './components/carousel/caraousel.component'
-import Cover from './components/cover/cover.component';
-import Info from './components/info/info.component'
-import About from './components/about/about.component'
-import Detailed from './components/detailed/detailed.component';
-import Footer from './components/footer/footer.component'
+
+import HomePage from './pages/home-page/home-page.component'
+import AboutPage from './pages/about-page/about-page.component'
+
+import {Switch,Router,Route} from 'react-router-dom'
+
 function App() {
   return (
-    <div className="App">
+    <div>
       <NavbarMain/>
-      <Cover/>
-      <About/>
-      <Info/>
-      <Detailed/>
-      <Footer/>
+      <Switch>
+        <Route exact path='/' component={HomePage}></Route>
+        <Route exact path='/about' component={AboutPage}></Route>
+      </Switch>
     </div>
   );
 }

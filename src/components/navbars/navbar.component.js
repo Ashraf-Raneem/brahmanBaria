@@ -15,7 +15,6 @@ const NavbarMain = () => {
               <NavLink> <img src={MailIcon} className='navPic'/>ashrafraneem@gmail.com</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
       </Navbar>
         </div>
     )

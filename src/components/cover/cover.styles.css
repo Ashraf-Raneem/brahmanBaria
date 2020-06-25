@@ -40,15 +40,16 @@
     text-decoration: none;
   }
 .coverText {
+  margin-left: 100px;
+  text-align: left;
   position: absolute;
   bottom: 200px
 }
 .coverText h2 {
   font-size: 48px;
   font-weight: bold;
-  padding: 25px;
   margin-top: 150px;
-  padding-left: 150px;
+  padding: 10px 0px;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
