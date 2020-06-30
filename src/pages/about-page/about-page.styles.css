@@ -1,0 +1,55 @@
+.developersInfo {
+    height: 100%;
+    width: 100%;
+    margin: 100px auto;
+    padding: 0px 10px 10px 100px;
+}
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px 0px 100px;
+}
+.flex-child {
+    flex: 1;
+}
+.imgDiv {
+    padding-left: 100px;
+}
+.developersImg {
+    height: 300px;
+    width: 300px;
+    margin:0 auto;
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+.developersText {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.developersText h3{
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+}
+.developersText p {
+    font-size: 20px;
+}
+.contactBtn:hover {
+    background: transparent;
+    border: 1px solid #5E0057;
+    padding: 5px;
+    border-radius: 5px;
+    color: #5E0057;
+    font-weight: bold;
+  }
+.contactBtn {
+    background-color: #5E0057 ;
+    font-weight: bold;
+    border: 1px solid #5E0057;
+    padding: 5px;
+    margin-right: 15px;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,31 @@
+
+.secondarynav {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.secondaryNavItems {
+  margin-left: 300px;
+}
+  /* Style the links inside the navigation bar */ 
+  .secondaryNavItems a {
+    color: purple;
+    text-align: right;
+    padding: 2px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .secondarynavBrand a {
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  /* Change the color of links on hover */
+  .secondarynav a:hover {
+    border-bottom: 1px solid purple;
+    color: purple;
+    text-decoration: none;
+  }
+  

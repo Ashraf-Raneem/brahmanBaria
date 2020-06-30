@@ -6,6 +6,8 @@ import HomePage from './pages/home-page/home-page.component'
 import AboutPage from './pages/about-page/about-page.component'
 
 import {Switch,Router,Route} from 'react-router-dom'
+import Footer from './components/footer/footer.component'
+import SecondaryNavbar from './components/navbars/secondary-navbar.component';
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route exact path='/' component={HomePage}></Route>
         <Route exact path='/about' component={AboutPage}></Route>
       </Switch>
+      <Footer/>
     </div>
   );
 }
